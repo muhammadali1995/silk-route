@@ -4,7 +4,7 @@ import logo from "../../assets/imgs/logo.png"
 
 const Navbar = () => {
   let activeStyle = {
-    // color: "#FCFE00",
+    color: "#FCFE00",
   };
 
   return (
@@ -15,13 +15,14 @@ const Navbar = () => {
       <ul className="flex gap-14 list-none text-white text-nabar pr-16 pt-8">
         <li className=" hover:text-delayedYellow">
           <NavLink
-            style={({ isActive }) => (isActive ? activeStyle : undefined)}
+            to='/home' style={({ isActive }) => (isActive ? activeStyle : undefined)}
           >
             Home
           </NavLink>
         </li>
         <li className=" hover:text-delayedYellow">
           <NavLink
+          to='/'
             style={({ isActive }) => (isActive ? activeStyle : undefined)}
           >
             About Us
@@ -29,6 +30,7 @@ const Navbar = () => {
         </li>
         <li className=" hover:text-delayedYellow">
           <NavLink
+          to='/services'
             style={({ isActive }) => (isActive ? activeStyle : undefined)}
           >
             Services
@@ -36,6 +38,7 @@ const Navbar = () => {
         </li>
         <li className=" hover:text-delayedYellow">
           <NavLink
+          to='/blogs'
             style={({ isActive }) => (isActive ? activeStyle : undefined)}
           >
             Blogs
@@ -43,6 +46,7 @@ const Navbar = () => {
         </li>
         <li className=" hover:text-delayedYellow">
           <NavLink
+          to='/faq'
             style={({ isActive }) => (isActive ? activeStyle : undefined)}
           >
             FAQ
@@ -50,6 +54,7 @@ const Navbar = () => {
         </li>
         <li className=" hover:text-delayedYellow">
           <NavLink
+          to='/contact'
             style={({ isActive }) => (isActive ? activeStyle : undefined)}
           >
             Contact{" "}
