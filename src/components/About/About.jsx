@@ -13,11 +13,11 @@ const About = () => {
       <header className="bg-headerImage w-full h-headerHeight bg-cover bg-no-repeat bg-center">
         <Navbar />
         <p className="text-center pt-72 font-anton px-40">
-          <span className="text-delayedYellow text-title80 text-center  ">
+          <span className="text-delayedYellow headerTitle text-center  ">
             Thinking of immigrating to Europe
           </span>
           <br />
-          <span className="text-springGreen  text-title80 text-center ">
+          <span className="text-springGreen  headerTitle text-center ">
             but don’t know where to start?
           </span>
         </p>
@@ -86,49 +86,65 @@ const About = () => {
         </div>
       </section>
       {/* second section */}
-      <section className=" bg-vividPink py-24 text-center  ">
-        <p className=" text-springGreen font-anton text-5xl">
-          Mission statement
-        </p>
-        <p className="font-anton text-title28 max-w-6xl leading-10 mx-auto text-electricPurple py-6">
-          Empowering people to begin new lives in the European Union through
-          business ownership.
-        </p>
-        <div className="flex gap-4 mx-auto max-w-6xl ">
-          <p className=" font-ptSansNarrow text-black text-xl  pt-8 text-justify leading-9">
-            Our mission is to simplify the process of immigration by meeting you
-            where you are and working with what you have, so that your dream of
-            a new life becomes a reality. Treating you like family from start to
-            finish, we design companies tailored to your unique
-            situation–companies owned and run by you — that establish EU
-            residency and allow you to discover the possibilities of a new life.
-          </p>
+      <section className=" bg-vividPink pt-24 pb-28 text-center   ">
+        <div className="max-w-5xl mx-auto">
+          <h1 className=" text-springGreen font-anton text-5xl">
+            Mission statement
+          </h1>
+          <h2 className="font-anton text-title28  leading-10 mx-auto text-electricPurple pt-6 pb-8">
+            Empowering people to begin new lives in the European Union through
+            business ownership.
+          </h2>
+          <div className="flex gap-3  mx-auto  ">
+            <p className=" font-ptSansNarrow text-black text-xl text-justify leading-8">
+              Our mission is to simplify the process of immigration by meeting
+              you where you are and working with what you have, so that your
+              dream of a new life becomes a reality. Treating you like family
+              from start to finish, we design companies tailored to your unique
+              situation–companies owned and run by you — that establish EU
+              residency and allow you to discover the possibilities of a new
+              life.
+            </p>
 
-          <img className=" w-52" src={goal} alt="" />
+            <img
+              className="max-w-[6.5rem] w-full max-h-[6.5rem]"
+              src={goal}
+              alt="mission statement"
+            />
+          </div>
         </div>
       </section>
       {/* third section */}
       <section className=" bg-springGreen py-24 text-center  ">
-        <p className=" text-vividPink  font-anton text-5xl">Vision statement</p>
-        <p className="font-anton text-title28 text-electricPurple max-w-6xl leading-10 mx-auto py-6">
-          Striving to be the agency of choice for individuals seeking new life
-          life in the European union.
-        </p>
-        <div className="flex gap-2 mx-auto max-w-6xl ">
-          <img className=" w-52" src={gppGood} alt="" />
-          <p className=" font-ptSansNarrow text-black text-xl  pt-8 text-justify leading-9">
-            It doesn’t take a crystal ball to see where our company is headed.
-            Our dream is to become a global leader in immigration affairs
-            concerning individuals who want to plant roots in Europe. We are in
-            the business of helping people begin new lives in the EU, and we
-            approach this both practically and sustainably. Creating and
-            planting businesses is a practical approach to establishing EU
-            residency, while giving full autonomy of the company to the
-            individual allows them to sustain their success after arrival. Silk
-            Route’s intention is to be one of the best residency programs in
-            Europe. We trust that our future promises stories of new beginnings
-            and lifelong successes.
-          </p>
+        <div className="max-w-[1080px] mx-auto">
+          {" "}
+          <h1 className=" text-vividPink  font-anton text-5xl">
+            Vision statement
+          </h1>
+          <h2 className="font-anton text-title28 text-electricPurple  leading-10 mx-auto pt-6">
+            Striving to be the agency of choice for individuals seeking new life
+            life in the European union.
+          </h2>
+          <div className="flex gap-2 mx-auto  pt-8 px-3">
+            <img
+              className="max-w-[12.5rem] w-full max-h-[11rem]"
+              src={gppGood}
+              alt="vision statment"
+            />
+            <p className=" font-ptSansNarrow text-black text-xl   text-justify leading-8">
+              It doesn’t take a crystal ball to see where our company is headed.
+              Our dream is to become a global leader in immigration affairs
+              concerning individuals who want to plant roots in Europe. We are
+              in the business of helping people begin new lives in the EU, and
+              we approach this both practically and sustainably. Creating and
+              planting businesses is a practical approach to establishing EU
+              residency, while giving full autonomy of the company to the
+              individual allows them to sustain their success after arrival.
+              Silk Route’s intention is to be one of the best residency programs
+              in Europe. We trust that our future promises stories of new
+              beginnings and lifelong successes.
+            </p>
+          </div>
         </div>
       </section>
       {/* footer */}
@@ -164,7 +180,7 @@ const About = () => {
             </li>
           </ul>
         </div>
-        <p className="text-center font-ptSansNarrow text-white pt-11">
+        <p className="text-center font-ptSansNarrow text-white pt-11 pb-5">
           Silk Route. All rights reserved © 2023
         </p>
       </footer>

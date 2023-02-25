@@ -6,3 +6,6 @@ body{
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace, Anton;
 }
+.headerTitle{
+    font-size: 80px;
+}
