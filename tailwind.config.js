@@ -7,6 +7,7 @@ module.exports = {
       fontSize: {
         navLink: "22px",
         title80: "80px",
+        title28:"28px"
       },
       backgroundImage: {
         headerImage: "url('/src/assets/imgs/big_ben.png')",
