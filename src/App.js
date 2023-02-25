@@ -1,9 +1,11 @@
+import About from "./components/About/About";
+import Navbar from "./components/Navbar/Navbar";
+
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-5xl font-bold underline">
-        Hello world!
-      </h1>
+    <div className="">
+      {/* <Navbar/> */}
+      <About/>
     </div>
   );
 }
