@@ -24,7 +24,9 @@ module.exports = {
         anton: ['"Anton"', ...defaultTheme.fontFamily.sans],
         ptSansNarrow: ['"Pt Sans Narrow"', ...defaultTheme.fontFamily.sans],
       },
-  
+      maxWidth: {
+        max: '1440px'
+      }
     },
   },
   plugins: [],

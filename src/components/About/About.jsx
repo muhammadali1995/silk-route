@@ -6,7 +6,7 @@ const About = () => {
   const [showInfo, setShowInfo] = useState(false);
   return (
     <div>
-      <header className=" bg-headerImage w-full h-headerHeight bg-cover bg-no-repeat bg-center">
+      <header className="bg-headerImage w-full h-headerHeight bg-cover bg-no-repeat bg-center">
         <Navbar />
         <p className="text-center pt-72 font-anton px-40">
           <span className="text-delayedYellow text-title80 text-center  ">
