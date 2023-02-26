@@ -1,16 +1,24 @@
 import { Route, Routes } from "react-router-dom";
-// import Home from "./pages/Home";
+import Home from "./pages/Home";
 import About from './components/About/About'
-import Faq from "./components/Faq/Faq";
+import Footer from "./components/Home/Footer";
+import Navbar from "./components/Navbar/Navbar";
+import Contact from "./pages/Contact";
+import Faq from './pages/Faq'
 
 function App() {
   return (
-    <Routes>
-      {/* <Route path="/" element={<Home />} /> */}
-      <Route path="/" element={<About />} />
-      <Route path="/faq" element={<Faq />} />
-    </Routes>
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/faq" element={<Faq />} />
 
+      </Routes>
+      <Footer />
+    </>
   );
 }
 

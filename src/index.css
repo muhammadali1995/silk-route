@@ -2,10 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+body {
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace, Anton;
 }
-.headerTitle{
+
+.headerTitle {
     font-size: 80px;
+}
+
+@layer components {
+    .slider-title {
+        @apply lg:text-title80 sm:text-[70px] text-[50px] font-anton text-white
+    }
+    .customInput {
+        @apply w-full bg-delayedYellow outline-none border-none mt-5 py-3 px-7 font-ptSansNarrow text-xl placeholder:text-black placeholder:font-ptSansNarrow
+    }
 }
