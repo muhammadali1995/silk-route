@@ -23,8 +23,8 @@ export default function Contact() {
         <>
             <div className='bg-black w-full h-24'></div>
             <Container>
-                <h1 className='font-anton mt-28 text-4xl text-electricPurple text-center'>Let’s explore how Silk Route can help you achieve your dreams of a new life!!!</h1>
-                <h1 className='mt-8 font-anton text-4xl text-vividPink text-center'>Click here to contact a member of our team</h1>
+                <h1 className='font-anton mx-2 lg:mt-28 mt-10 lg:text-4xl text-3xl text-electricPurple text-center'>Let’s explore how Silk Route can help you achieve your dreams of a new life!!!</h1>
+                <h1 className='mt-8 font-anton mx-2 lg:text-4xl text-3xl text-vividPink text-center'>Click here to contact a member of our team</h1>
                 <div className='w-full flex justify-center mt-7'>
                     <img
                         src={arrowDown}
@@ -34,7 +34,7 @@ export default function Contact() {
                 </div>
                 <Formik initialValues={initialValues} onSubmit={onSubmit}>
                     <Form>
-                        <div className={'bg-vividPink p-10 max-w-form mx-auto mt-10 ' + (formIsOpen ? 'block' : 'hidden')}>
+                        <div className={'bg-vividPink lg:p-10 p-4 max-w-form mx-auto mt-10 ' + (formIsOpen ? 'block' : 'hidden')}>
                             <Field name="name" type="text" className='customInput' placeholder='Full Name' />
                             <Field name='phone' type="text" className='customInput' placeholder='Phone' />
                             <Field name='email' type="text" className='customInput' placeholder='Email ' />
@@ -46,14 +46,14 @@ export default function Contact() {
                         </div>
                     </Form>
                 </Formik>
-                <div className='grid grid-cols-3 mt-20'>
-                    <div className='bg-springGreen p-24 flex items-center justify-start flex-col'>
+                <div className='grid lg:grid-cols-3 sm:grid-cols-2 mt-20'>
+                    <div className='bg-springGreen sm:p-24 py-10 sm:py-24 flex items-center justify-start flex-col'>
                         <h3 className='text-vividPink text-3xl font-anton'>Head Office</h3>
                         <p className='mt-2 font-anton text-xl'>Garve 23 <br />
                             Someren 5712KD <br />
                             Netherlands</p>
                     </div>
-                    <div className='bg-delayedYellow p-24 flex items-center flex-col'>
+                    <div className='bg-delayedYellow sm:p-24 py-10 sm:py-24 flex items-center flex-col'>
                         <div>
                             <h3 className='text-electricPurple text-3xl font-anton'>Branch Office</h3>
                             <p className='mt-2 font-anton text-xl'>Avotu iela 6B - 31 <br />
@@ -61,7 +61,7 @@ export default function Contact() {
                                 Latvia</p>
                         </div>
                     </div>
-                    <div className='bg-vividPink p-24 flex items-center flex-col'>
+                    <div className='bg-vividPink sm:p-24  py-10 sm:py-24 flex items-center flex-col'>
                         <div>
                             <h3 className='text-delayedYellow text-3xl font-anton'>Contacts</h3>
                             <div className='mt-2 font-anton text-xl'>
