@@ -1,10 +1,10 @@
 import React from "react";
-import Navbar from "../../components/Navbar/Navbar";
-import { data } from "./FaqData";
-import answerIcon from "../../assets/imgs/answerIcon.png";
-import yellowArrow from "../../assets/imgs/yellowArrow.png";
-import greenArrow from "../../assets/imgs/greenArrow.png";
-import questionIcon from "../../assets/imgs/questionIcon.png";
+import Navbar from "../components/Navbar/Navbar";
+import { data } from "../constants/FaqData";
+import answerIcon from "./../assets/imgs/answerIcon.png";
+import yellowArrow from "./../assets/imgs/yellowArrow.png";
+import greenArrow from "./../assets/imgs/greenArrow.png";
+import questionIcon from "./../assets/imgs/questionIcon.png";
 
 const Faq = () => {
   return (
