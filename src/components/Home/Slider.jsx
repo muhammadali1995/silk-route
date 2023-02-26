@@ -7,8 +7,20 @@ import slider1Tablet from './../../assets/imgs/slide1_tablet.png'
 import slider1Laptop from './../../assets/imgs/slide1_laptop.png'
 
 import slider2 from './../../assets/imgs/slider2.png'
+import slider2Mobile from './../../assets/imgs/slider2_mobile.png'
+import slider2Tablet from './../../assets/imgs/slider2_tablet.png'
+import slider2Laptop from './../../assets/imgs/slider2_laptop.png'
+
 import slider3 from './../../assets/imgs/slider3.png'
+import slider3Mobile from './../../assets/imgs/slider3_mobile.png'
+import slider3Tablet from './../../assets/imgs/slider3_tablet.png'
+import slider3Laptop from './../../assets/imgs/slider3_laptop.png'
+
 import slider4 from './../../assets/imgs/slider4.png'
+import slider4Mobile from './../../assets/imgs/slider4_mobile.png'
+import slider4Tablet from './../../assets/imgs/slider4_tablet.png'
+import slider4Laptop from './../../assets/imgs/slider4_laptop.png'
+
 import cross from './../../assets/imgs/cross.png'
 import Container from "../Container";
 
@@ -44,7 +56,7 @@ export default function Slider() {
                     <source media="(max-width: 1440px)" srcset={slider1} />
                     <img src={slider1Laptop} alt="slider1" className="min-h-[800px] sm:min-h-[1024px] md:min-h-[790px] 2xl:min-h-[990px]" />
                 </picture>
-                <div className='absolute top-96'>
+                <div className='absolute top-0 h-full'>
                     <Container>
                         <div className='max-w-extraLg mx-auto flex items-center h-full absolute top-0'>
                             <h1 className='slider-title md:ml-24 ml-2'>Immigration <br /> Tailored <br /> to You</h1>
@@ -53,35 +65,52 @@ export default function Slider() {
                 </div>
             </SwiperSlide>
             <SwiperSlide>
-                <div className='w-full relative'>
-                    <div className='mx-auto'>
-                        <img src={slider2} alt="slider1" className='absolute  mx-auto w-full top-0 -z-10 ' />
-                        <div className='flex items-center justify-end max-w-extraLg mx-auto h-full'>
+                <picture className='mx-auto w-full top-0 -z-10'>
+                    <source media="(max-width: 360px)" srcset={slider2Mobile} />
+                    <source media="(max-width: 768px)" srcset={slider2Tablet} />
+                    <source media="(max-width: 1440px)" srcset={slider2} />
+                    <img src={slider2Laptop} alt="slider2" className="min-h-[800px] sm:min-h-[1024px] md:min-h-[790px] 2xl:min-h-[990px]" />
+                </picture>
+                <div className='absolute top-0 h-full w-full'>
+                    <Container className={'h-full'}>
+                        <div className='max-w-extraLg mx-auto h-full w-full flex justify-end items-center'>
                             <h1 className='slider-title md:mr-24 mr-5'>Immigrating <br /> is a <br />
                                 <span className='relative inline-block mr-4'>scary
                                     <img className='absolute top-8' src={cross} alt="" /> </span>
                                 <span className='text-vividPink inline-block'> luxury</span> <br /> experience</h1>
                         </div>
-                    </div>
+                    </Container>
                 </div>
-            </SwiperSlide>
+            </SwiperSlide >
             <SwiperSlide>
-                <div className='w-full relative'>
-                    <img src={slider3} alt="slider1" className='absolute  mx-auto w-full top-0 -z-10 ' />
-                    <div className=' flex items-center justify-center'>
-                        <h1 className='slider-title ml-7 lg:ml-0'>We specialize in new beginnings</h1>
-                    </div>
+                <picture className='mx-auto w-full top-0 -z-10'>
+                    <source media="(max-width: 360px)" srcset={slider3Mobile} />
+                    <source media="(max-width: 768px)" srcset={slider3Tablet} />
+                    <source media="(max-width: 1440px)" srcset={slider3} />
+                    <img src={slider3Laptop} alt="slider3" className="min-h-[800px] sm:min-h-[1024px] md:min-h-[790px] 2xl:min-h-[990px]" />
+                </picture>
+                <div className='absolute top-0 h-full w-full'>
+                    <Container className={'h-full w-full'}>
+                        <div className='flex items-center justify-center w-full h-full'>
+                            <h1 className='slider-title ml-7 lg:ml-0'>We specialize in new beginnings</h1>
+                        </div>
+                    </Container>
                 </div>
-            </SwiperSlide>
+            </SwiperSlide >
             <SwiperSlide>
-                <div className='w-full relative'>
-                    <div className='py-48 mx-auto '>
-                        <img src={slider4} alt="slider1" className='absolute  mx-auto w-full top-0 -z-10 ' />
+                <picture className='mx-auto w-full top-0 -z-10'>
+                    <source media="(max-width: 360px)" srcset={slider4Mobile} />
+                    <source media="(max-width: 768px)" srcset={slider4Tablet} />
+                    <source media="(max-width: 1440px)" srcset={slider4} />
+                    <img src={slider4Laptop} alt="slider4" className="min-h-[800px] sm:min-h-[1024px] md:min-h-[790px] 2xl:min-h-[990px]" />
+                </picture>
+                <div className='absolute top-0 w-full h-full'>
+                    <Container className={'w-full h-full'}>
                         <div className='max-w-extraLg mx-auto flex h-full items-center'>
                             <h1 className='slider-title lg:ml-24 ml-7'>A Red Carpet Experience for <br className='hidden lg:block' /> Anyone Seeking <br className='hidden lg:block' />
                                 Residence in Europe</h1>
                         </div>
-                    </div>
+                    </Container>
                 </div>
             </SwiperSlide>
             <div className='absolute bottom-0 w-full'>
