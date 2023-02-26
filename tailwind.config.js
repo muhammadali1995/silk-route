@@ -7,13 +7,15 @@ module.exports = {
       fontSize: {
         navLink: "22px",
         title80: "80px",
-        title28: "28px"
+        title28: "28px",
+        title60: "60px"
       },
       backgroundImage: {
         headerImage: "url('/src/assets/imgs/big_ben.png')",
       },
       height: {
         headerHeight: "790px",
+        slide: '1200px'
       },
       colors: {
         delayedYellow: "#FCFE00",
@@ -26,7 +28,8 @@ module.exports = {
         ptSansNarrow: ['"Pt Sans Narrow"', ...defaultTheme.fontFamily.sans],
       },
       maxWidth: {
-        max: '1440px'
+        extraLg: '1440px',
+        md: '968px'
       },
     },
   },
