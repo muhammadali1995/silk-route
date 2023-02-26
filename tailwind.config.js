@@ -29,7 +29,8 @@ module.exports = {
       },
       maxWidth: {
         extraLg: '1440px',
-        md: '968px'
+        md: '968px',
+        form:'770px'
       },
     },
   },
