@@ -22,7 +22,7 @@ export default function Main() {
                     </h3>
                 </div>
                 <h4 className='text-delayedYellow lg:mb-10 mb-5 lg:text-3xl text-2xl font-anton lg:text-center mt-10 lg:mt-0'>Are you ready to unlock the possibilities of a new life in the EU?</h4>
-                <a href='#' className='text-springGreen font-ptSansNarrow underline flex lg:justify-center text-2xl'>Click here to begin your journey</a>
+                <a href='/' className='text-springGreen font-ptSansNarrow underline flex lg:justify-center text-2xl'>Click here to begin your journey</a>
             </div>
         </div>
     )

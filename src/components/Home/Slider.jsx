@@ -2,10 +2,15 @@ import React, { useRef, useState } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import slider1 from './../../assets/imgs/slider1.png'
+import slider1Mobile from './../../assets/imgs/slide1_mobile.png'
+import slider1Tablet from './../../assets/imgs/slide1_tablet.png'
+import slider1Laptop from './../../assets/imgs/slide1_laptop.png'
+
 import slider2 from './../../assets/imgs/slider2.png'
 import slider3 from './../../assets/imgs/slider3.png'
 import slider4 from './../../assets/imgs/slider4.png'
 import cross from './../../assets/imgs/cross.png'
+import Container from "../Container";
 
 export default function Slider() {
     const swiperRef = useRef()
@@ -13,7 +18,6 @@ export default function Slider() {
     const paginationRef = useRef()
     return (
         <Swiper
-            className='-mt-24'
             loop
             style={{ zIndex: 1 }}
             direction="horizontal"
@@ -34,19 +38,24 @@ export default function Slider() {
 
         >
             <SwiperSlide>
-                <div className='w-full relative'>
-                    <div className='mx-auto  sm:h-slide h-headerHeight'>
-                        <img src={slider1} alt="slider1" className='absolute sm:h-slide h-headerHeight mx-auto w-full top-0 -z-10 ' />
-                        <div className='max-w-extraLg mx-auto flex items-center h-full'>
+                <picture className='mx-auto w-full top-0 -z-10'>
+                    <source media="(max-width: 360px)" srcset={slider1Mobile} />
+                    <source media="(max-width: 768px)" srcset={slider1Tablet} />
+                    <source media="(max-width: 1440px)" srcset={slider1} />
+                    <img src={slider1Laptop} alt="slider1" className="min-h-[800px] sm:min-h-[1024px] md:min-h-[790px] 2xl:min-h-[990px]" />
+                </picture>
+                <div className='absolute top-96'>
+                    <Container>
+                        <div className='max-w-extraLg mx-auto flex items-center h-full absolute top-0'>
                             <h1 className='slider-title md:ml-24 ml-2'>Immigration <br /> Tailored <br /> to You</h1>
                         </div>
-                    </div>
+                    </Container>
                 </div>
             </SwiperSlide>
             <SwiperSlide>
                 <div className='w-full relative'>
-                    <div className='mx-auto sm:h-slide h-headerHeight'>
-                        <img src={slider2} alt="slider1" className='absolute  mx-auto w-full top-0 -z-10 sm:h-slide h-headerHeight' />
+                    <div className='mx-auto'>
+                        <img src={slider2} alt="slider1" className='absolute  mx-auto w-full top-0 -z-10 ' />
                         <div className='flex items-center justify-end max-w-extraLg mx-auto h-full'>
                             <h1 className='slider-title md:mr-24 mr-5'>Immigrating <br /> is a <br />
                                 <span className='relative inline-block mr-4'>scary
@@ -58,16 +67,16 @@ export default function Slider() {
             </SwiperSlide>
             <SwiperSlide>
                 <div className='w-full relative'>
-                    <img src={slider3} alt="slider1" className='absolute  mx-auto w-full top-0 -z-10 sm:h-slide h-headerHeight' />
-                    <div className='sm:h-slide h-headerHeight flex items-center justify-center'>
+                    <img src={slider3} alt="slider1" className='absolute  mx-auto w-full top-0 -z-10 ' />
+                    <div className=' flex items-center justify-center'>
                         <h1 className='slider-title ml-7 lg:ml-0'>We specialize in new beginnings</h1>
                     </div>
                 </div>
             </SwiperSlide>
             <SwiperSlide>
                 <div className='w-full relative'>
-                    <div className='py-48 mx-auto sm:h-slide h-headerHeight'>
-                        <img src={slider4} alt="slider1" className='absolute  mx-auto w-full top-0 -z-10 sm:h-slide h-headerHeight' />
+                    <div className='py-48 mx-auto '>
+                        <img src={slider4} alt="slider1" className='absolute  mx-auto w-full top-0 -z-10 ' />
                         <div className='max-w-extraLg mx-auto flex h-full items-center'>
                             <h1 className='slider-title lg:ml-24 ml-7'>A Red Carpet Experience for <br className='hidden lg:block' /> Anyone Seeking <br className='hidden lg:block' />
                                 Residence in Europe</h1>
