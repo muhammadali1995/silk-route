@@ -5,11 +5,11 @@ import logo from "../../assets/imgs/logo.png";
 export default function Footer() {
     return (
         <footer className="bg-black">
-            <div className=" flex justify-between max-w-extraLg mx-auto px-24 pt-1 font-ptSansNarrow">
+            <div className="flex justify-between sm:flex-row flex-row-reverse px-2 max-w-extraLg mx-auto lg:px-24 sm:items-center pt-1 font-ptSansNarrow">
                 <div>
                     <img src={logo} alt="" />
                 </div>
-                <ul className="flex gap-14 list-none text-white text-nabar pr-16 pt-8">
+                <ul className="lg:flex lg:gap-14 gap-4 grid sm:grid-cols-4 grid-cols-1 list-none text-white text-navbar pt-8">
                     <li className=" hover:text-delayedYellow">
                         <NavLink>Home</NavLink>
                     </li>
