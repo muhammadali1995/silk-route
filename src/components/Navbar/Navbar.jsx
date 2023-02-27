@@ -20,11 +20,11 @@ const Navbar = () => {
   return (
     <div className="absolute w-full main top-0">
       <Container>
-        <div className="w-full lg:my-4 flex justify-between items-center md:px-24 px-2.5  pt-5 lg:pt-0 font-ptSansNarrow">
-          <div className="w-20 lg:w-36 z-10">
+        <div className="w-full lg:my-4 flex justify-between items-center md:px-20 px-2.5 lg:pt-0 font-ptSansNarrow">
+          <div className="w-20 lg:w-36 z-10 mt-2">
             <img className="z-10" src={logo} alt="silk route logo" />
           </div>
-          <NavLinks className={'lg:flex gap-14 list-none text-white text-nabar pr-16 hidden'} />
+          <NavLinks className={'lg:flex gap-14 list-none text-white text-nabar pr-7 -mt-3 hidden'} />
           <div className="lg:hidden md:w-12 w-7 cursor-pointer z-10" onClick={() => setMenuIsOpen(!menuIsOpen)}>
             <img src={menu} alt="menu" />
           </div>

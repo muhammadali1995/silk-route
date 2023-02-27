@@ -15,9 +15,9 @@ const About = () => {
           alt="big_ben"
           className="min-h-[800px] sm:min-h-[1024px] md:min-h-[790px] 2xl:min-h-[990px] mx-auto w-full top-0 -z-10"
         />
-        <div className="absolute top-0 h-full w-full md:px-14 sm:px-8 px-4">
+        <div className="absolute top-0 h-full w-full md:px-7 sm:px-8 px-2.5">
           <Container className={'h-full w-full'}>
-            <h1 className="flex flex-col items-center justify-center w-full h-full">
+            <h1 className="flex flex-col items-center justify-center w-full h-full mt-12">
               <span className="text-delayedYellow slider-title  ">
                 Thinking of immigrating to Europe
               </span>
@@ -30,12 +30,12 @@ const About = () => {
         </div>
       </header>
       {/* first section */}
-      <section className=" bg-electricPurple py-24  text-center ">
-        <h1 className=" text-vividPink font-anton aboutTitle">
+      <section className="bg-electricPurple py-24  text-center ">
+        <h1 className="text-vividPink font-anton aboutTitle mt-4">
           Hi, we’re Silk Route.
         </h1>
-        <div className=" font-ptSansNarrow text-white aboutText text-center mx-auto pt-8 max-w-3xl leading-8">
-          <p>
+        <div className="font-ptSansNarrow text-white aboutText text-center mx-auto pt-8 max-w-3xl">
+          <p className="mt-3 leading-[30px]">
             We’re an immigration consultancy firm that specializes in helping
             people like you gain residency in Europe by creating businesses that
             you own and operate. Our company is run by a highly qualified team
@@ -51,7 +51,7 @@ const About = () => {
             doesn’t have to cost a fortune.
           </p>
 
-          <p className={showInfo ? "block py-8" : "hidden"}>
+          <p className={"leading-[30px]  " + (showInfo ? "block py-8" : "hidden")}>
             Our brand name and logo were carefully curated to represent our
             purpose and values. Historically speaking, the Silk Route was an
             ancient trade network that connected China with Europe and the
@@ -62,7 +62,7 @@ const About = () => {
             our valuable good is far more important than any costly fabric or
             expensive gemstone–our valuable good is you!
           </p>
-          <p className={showInfo ? "block" : "hidden"}>
+          <p className={"leading-[30px] " + (showInfo ? "block" : "hidden")}>
             Because we pride ourselves on inclusivity, we chose to include an
             array of colors in our logo. These various hues represent the flags
             of different nations and express our deepest desire to work with
@@ -94,15 +94,15 @@ const About = () => {
       {/* second section */}
       <section className=" bg-vividPink pt-24  pb-28 text-center   ">
         <div className="max-w-5xl mx-auto">
-          <h1 className=" text-springGreen font-anton aboutTitle">
+          <h1 className=" text-springGreen font-anton aboutTitle mt-5">
             Mission statement
           </h1>
-          <h2 className="font-anton aboutSubTitle  leading-10 mx-auto text-electricPurple pt-6 pb-8">
+          <h2 className="font-anton aboutSubTitle  leading-10 mx-auto text-electricPurple pt-6 pb-8 mt-5">
             Empowering people to begin new lives in the European Union through
             business ownership.
           </h2>
           <div className="flex lg:flex-row flex-col-reverse gap-3 items-center mx-auto  ">
-            <p className=" font-ptSansNarrow text-black aboutText lg:text-justify text-center leading-8">
+            <p className=" font-ptSansNarrow text-black aboutText lg:text-justify text-center leading-8 -mt-2.5">
               Our mission is to simplify the process of immigration by meeting
               you where you are and working with what you have, so that your
               dream of a new life becomes a reality. Treating you like family
@@ -123,20 +123,21 @@ const About = () => {
       {/* third section */}
       <section className=" bg-springGreen py-24  text-center  ">
         <div className="max-w-[1080px]  mx-auto">
-          <h1 className=" text-vividPink  font-anton aboutTitle">
+          <h1 className=" text-vividPink  font-anton aboutTitle mt-2.5">
             Vision statement
           </h1>
-          <h2 className="font-anton aboutSubTitle text-electricPurple  leading-10 mx-auto pt-6">
+          <h2 className="font-anton aboutSubTitle text-electricPurple  leading-10 mx-auto pt-6 mt-4">
             Striving to be the agency of choice for individuals seeking new life
             life in the European union.
           </h2>
-          <div className="flex lg:gap-9 gap-4 mx-auto lg:flex-row flex-col items-center  pt-8 px-3">
-            <img
-              className="max-w-[12.5rem] w-full max-h-[11rem]"
-              src={gppGood}
-              alt="vision statment"
-            />
-            <p className=" font-ptSansNarrow text-black aboutText   lg:text-justify text-center leading-8">
+          <div className="flex mx-auto lg:flex-row flex-col items-center  pt-8 px-3">
+            <div className="max-w-[12.5rem] w-full max-h-[11rem] mb-8">
+              <img
+                src={gppGood}
+                alt="vision statment"
+              />
+            </div>
+            <p className=" font-ptSansNarrow text-black aboutText  lg:text-justify text-center leading-8">
               It doesn’t take a crystal ball to see where our company is headed.
               Our dream is to become a global leader in immigration affairs
               concerning individuals who want to plant roots in Europe. We are

@@ -4,12 +4,12 @@ import logo from "../../assets/imgs/logo.png";
 
 export default function Footer() {
     return (
-        <footer className="bg-black">
-            <div className="flex justify-between sm:flex-row flex-row-reverse px-2 max-w-extraLg mx-auto lg:px-24 sm:items-center pt-1 font-ptSansNarrow">
+        <footer className="bg-black pt-4">
+            <div className="flex justify-between sm:flex-row flex-row-reverse px-2 sm:px-8 md:px-7 max-w-extraLg mx-auto lg:px-52 sm:items-center pt-4 text-[16px] font-ptSansNarrow">
                 <div>
                     <img src={logo} alt="" />
                 </div>
-                <ul className="lg:flex lg:gap-14 gap-4 grid sm:grid-cols-4 grid-cols-1 list-none text-white text-navbar pt-8">
+                <ul className="lg:flex lg:gap-9 gap-4 grid sm:grid-cols-4 grid-cols-1 list-none text-white text-navbar pt-8 lg:mr-32 ">
                     <li className=" hover:text-delayedYellow">
                         <NavLink>Home</NavLink>
                     </li>
