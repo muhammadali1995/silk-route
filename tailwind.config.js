@@ -10,9 +10,6 @@ module.exports = {
         title28: "28px",
         title60: "60px"
       },
-      backgroundImage: {
-        headerImage: "url('/src/assets/imgs/big_ben.png')",
-      },
       height: {
         headerHeight: "790px",
         slide: '1200px'

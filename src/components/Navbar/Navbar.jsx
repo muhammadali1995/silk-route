@@ -18,7 +18,7 @@ const Navbar = () => {
   }
 
   return (
-    <div className="absolute w-full top-0">
+    <div className="absolute w-full main top-0">
       <Container>
         <div className="w-full lg:my-4 flex justify-between items-center md:px-24 px-2.5  pt-5 lg:pt-0 font-ptSansNarrow">
           <div className="w-20 lg:w-36 z-10">
