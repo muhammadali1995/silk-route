@@ -2,11 +2,11 @@ import React from "react";
 
 export default function Company() {
   return (
-    <div className="bg-springGreen lg:py-24 py-16 md:px-7 px-2 lg:px-0">
-      <h1 className="lg:text-center lg:text-title60 text-4xl font-anton text-electricPurple">
+    <div className="bg-springGreen lg:py-24 lg:pb-36 py-16 md:px-7 px-2 lg:px-0">
+      <h1 className="lg:text-center lg:text-title60 text-4xl font-anton text-electricPurple sm:mt-10">
         Company Bio
       </h1>
-      <h3 className="md:mt-8 mt-5 text-xl font-ptSansNarrow max-w-extraLg mx-auto lg:px-40 text-electricPurple">
+      <h3 className="md:mt-14 mt-5 text-xl font-ptSansNarrow max-w-extraLg mx-auto lg:px-20 text-electricPurple sm:leading-auto leading-[31px]">
         Silk Route is an immigration consultancy firm that specializes in
         helping individuals gain permanent residency in the European Union via
         business development. We pride ourselves on being one of the best
