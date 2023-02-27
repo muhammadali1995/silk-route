@@ -7,8 +7,14 @@ body {
     font-family: 'Courier New', Courier, monospace, Anton;
 }
 
-.headerTitle {
-    font-size: 80px;
+.aboutTitle {
+    @apply lg:text-5xl text-3xl 
+}
+.aboutSubTitle {
+    @apply md:text-title28 text-2xl lg:px-0 px-4
+}
+.aboutText {
+    @apply lg:text-xl  lg:px-0 px-4
 }
 
 @layer components {

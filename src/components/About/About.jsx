@@ -2,30 +2,40 @@ import React, { useState } from "react";
 import arrowUp from "../../assets/icons/ArrowUp.svg";
 import gppGood from "../../assets/imgs/gpp-good.png";
 import goal from "../../assets/imgs/Icon_goal-24.png";
+import big_ben from "../../assets/imgs/big_ben.png";
+import Container from "../Container";
 
 const About = () => {
   const [showInfo, setShowInfo] = useState(false);
   return (
-    <div>
-      <header className="bg-headerImage w-full h-headerHeight bg-cover bg-no-repeat bg-center">
-        <h1 className="text-center pt-72 font-anton px-40">
-          <span className="text-delayedYellow headerTitle text-center  ">
-            Thinking of immigrating to Europe
-          </span>
-          <br />
-          <span className="text-springGreen  headerTitle text-center ">
-            but don’t know where to start?
-          </span>
-        </h1>
+    <div >
+      <header className=" relative  flex justify-between  ">
+        <img
+          src={big_ben}
+          alt="big_ben"
+          className="min-h-[800px] sm:min-h-[1024px] md:min-h-[790px] 2xl:min-h-[990px] mx-auto w-full top-0 -z-10"
+        />
+        <div className="absolute top-0 h-full w-full md:px-14 sm:px-8 px-4">
+          <Container className={'h-full w-full'}>
+            <h1 className="flex flex-col items-center justify-center w-full h-full">
+              <span className="text-delayedYellow slider-title  ">
+                Thinking of immigrating to Europe
+              </span>
+              <br />
+              <span className="text-springGreen  slider-title left-50%">
+                but don’t know where to start?
+              </span>
+            </h1>
+          </Container>
+        </div>
       </header>
       {/* first section */}
-      <section className=" bg-electricPurple py-24 text-center ">
-        <h1 className=" text-vividPink font-anton text-5xl">
+      <section className=" bg-electricPurple py-24  text-center ">
+        <h1 className=" text-vividPink font-anton aboutTitle">
           Hi, we’re Silk Route.
         </h1>
-        <div className=" font-ptSansNarrow text-white text-xl text-center mx-auto pt-8 max-w-3xl leading-9">
+        <div className=" font-ptSansNarrow text-white aboutText text-center mx-auto pt-8 max-w-3xl leading-8">
           <p>
-            {" "}
             We’re an immigration consultancy firm that specializes in helping
             people like you gain residency in Europe by creating businesses that
             you own and operate. Our company is run by a highly qualified team
@@ -82,17 +92,17 @@ const About = () => {
         </div>
       </section>
       {/* second section */}
-      <section className=" bg-vividPink pt-24 pb-28 text-center   ">
+      <section className=" bg-vividPink pt-24  pb-28 text-center   ">
         <div className="max-w-5xl mx-auto">
-          <h1 className=" text-springGreen font-anton text-5xl">
+          <h1 className=" text-springGreen font-anton aboutTitle">
             Mission statement
           </h1>
-          <h2 className="font-anton text-title28  leading-10 mx-auto text-electricPurple pt-6 pb-8">
+          <h2 className="font-anton aboutSubTitle  leading-10 mx-auto text-electricPurple pt-6 pb-8">
             Empowering people to begin new lives in the European Union through
             business ownership.
           </h2>
-          <div className="flex gap-3  mx-auto  ">
-            <p className=" font-ptSansNarrow text-black text-xl text-justify leading-8">
+          <div className="flex lg:flex-row flex-col-reverse gap-3 items-center mx-auto  ">
+            <p className=" font-ptSansNarrow text-black aboutText lg:text-justify text-center leading-8">
               Our mission is to simplify the process of immigration by meeting
               you where you are and working with what you have, so that your
               dream of a new life becomes a reality. Treating you like family
@@ -111,23 +121,22 @@ const About = () => {
         </div>
       </section>
       {/* third section */}
-      <section className=" bg-springGreen py-24 text-center  ">
-        <div className="max-w-[1080px] mx-auto">
-          {" "}
-          <h1 className=" text-vividPink  font-anton text-5xl">
+      <section className=" bg-springGreen py-24  text-center  ">
+        <div className="max-w-[1080px]  mx-auto">
+          <h1 className=" text-vividPink  font-anton aboutTitle">
             Vision statement
           </h1>
-          <h2 className="font-anton text-title28 text-electricPurple  leading-10 mx-auto pt-6">
+          <h2 className="font-anton aboutSubTitle text-electricPurple  leading-10 mx-auto pt-6">
             Striving to be the agency of choice for individuals seeking new life
             life in the European union.
           </h2>
-          <div className="flex gap-2 mx-auto  pt-8 px-3">
+          <div className="flex lg:gap-9 gap-4 mx-auto lg:flex-row flex-col items-center  pt-8 px-3">
             <img
               className="max-w-[12.5rem] w-full max-h-[11rem]"
               src={gppGood}
               alt="vision statment"
             />
-            <p className=" font-ptSansNarrow text-black text-xl   text-justify leading-8">
+            <p className=" font-ptSansNarrow text-black aboutText   lg:text-justify text-center leading-8">
               It doesn’t take a crystal ball to see where our company is headed.
               Our dream is to become a global leader in immigration affairs
               concerning individuals who want to plant roots in Europe. We are
