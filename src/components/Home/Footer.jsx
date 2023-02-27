@@ -9,7 +9,7 @@ export default function Footer() {
                 <div>
                     <img src={logo} alt="" />
                 </div>
-                <ul className="lg:flex lg:gap-9 gap-4 grid sm:grid-cols-4 grid-cols-1 list-none text-white text-navbar pt-8 lg:mr-32 ">
+                <ul className="lg:flex lg:gap-9 gap-4 grid sm:grid-cols-4 grid-cols-1 list-none text-white text-navbar pt-8 2xl:mr-32 ">
                     <li className=" hover:text-delayedYellow">
                         <NavLink>Home</NavLink>
                     </li>
