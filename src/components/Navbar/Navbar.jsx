@@ -20,8 +20,8 @@ const Navbar = () => {
   return (
     <div className="absolute w-full main top-0">
       <Container>
-        <div className="w-full lg:my-4 flex justify-between items-center md:px-20 px-2.5 lg:pt-0 font-ptSansNarrow">
-          <div className="w-20 lg:w-36 z-10 mt-2">
+        <div className="w-full lg:my-4 flex justify-between items-center md:px-7 py-2.5 md:py-0 px-2.5 lg:pt-0 font-ptSansNarrow">
+          <div className="w-20 sm:w-36 z-10 mt-2">
             <img className="z-10" src={logo} alt="silk route logo" />
           </div>
           <NavLinks className={'lg:flex gap-14 list-none text-white text-nabar pr-7 -mt-3 hidden'} />

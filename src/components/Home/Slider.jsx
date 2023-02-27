@@ -66,10 +66,12 @@ export default function Slider() {
         </picture>
         <div className="absolute top-0 h-full">
           <Container>
-            <div className="max-w-extraLg mx-auto flex items-center  h-full absolute top-0">
-              <h1 className="slider-title md:ml-24 ml-2">
-                Immigration <br /> Tailored <br /> to You
-              </h1>
+            <div className="w-screen justify-center mx-auto flex items-center h-full absolute top-0">
+              <div className="w-[1358px] 2xl:mt-20 flex items-start justify-start">
+                <h1 className="slider-title lg:ml-24 ml-2">
+                  Immigration <br /> Tailored <br /> to You
+                </h1>
+              </div>
             </div>
           </Container>
         </div>
@@ -148,7 +150,7 @@ export default function Slider() {
       <div className="absolute bottom-0 w-full">
         <div
           className={
-            "z-20 relative mb-10 lg:mb-24 md:mb-14 flex justify-between md:px-24 px-2 max-w-extraLg mx-auto text-springGreen"
+            "z-20 relative mb-10 lg:mb-24 md:mb-14 flex justify-between md:px-40 px-2 max-w-extraLg mx-auto text-springGreen"
           }
           ref={paginationRef}
         >

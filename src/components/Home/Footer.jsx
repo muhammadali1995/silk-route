@@ -36,7 +36,7 @@ export default function Footer() {
                     </li>
                 </ul>
             </div>
-            <p className="text-center font-ptSansNarrow text-white pt-11 pb-5">
+            <p className="text-center font-ptSansNarrow text-white pt-11 pb-5 text-sm ml-24">
                 Silk Route. All rights reserved © 2023
             </p>
         </footer>
