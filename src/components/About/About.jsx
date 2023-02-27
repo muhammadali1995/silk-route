@@ -1,15 +1,13 @@
 import React, { useState } from "react";
-import Navbar from "../Navbar/Navbar";
 import arrowUp from "../../assets/icons/ArrowUp.svg";
-import goal from "../../assets/imgs/Icon_goal-24.png";
 import gppGood from "../../assets/imgs/gpp-good.png";
+import goal from "../../assets/imgs/Icon_goal-24.png";
 
 const About = () => {
   const [showInfo, setShowInfo] = useState(false);
   return (
     <div>
       <header className="bg-headerImage w-full h-headerHeight bg-cover bg-no-repeat bg-center">
-        <Navbar />
         <h1 className="text-center pt-72 font-anton px-40">
           <span className="text-delayedYellow headerTitle text-center  ">
             Thinking of immigrating to Europe
