@@ -3,7 +3,6 @@ import Navbar from "../Navbar/Navbar";
 import arrowUp from "../../assets/icons/ArrowUp.svg";
 import goal from "../../assets/imgs/Icon_goal-24.png";
 import gppGood from "../../assets/imgs/gpp-good.png";
-import Footer from "../Home/Footer";
 
 const About = () => {
   const [showInfo, setShowInfo] = useState(false);
@@ -11,7 +10,7 @@ const About = () => {
     <div>
       <header className="bg-headerImage w-full h-headerHeight bg-cover bg-no-repeat bg-center">
         <Navbar />
-        <p className="text-center pt-72 font-anton px-40">
+        <h1 className="text-center pt-72 font-anton px-40">
           <span className="text-delayedYellow headerTitle text-center  ">
             Thinking of immigrating to Europe
           </span>
@@ -19,13 +18,13 @@ const About = () => {
           <span className="text-springGreen  headerTitle text-center ">
             but don’t know where to start?
           </span>
-        </p>
+        </h1>
       </header>
       {/* first section */}
       <section className=" bg-electricPurple py-24 text-center ">
-        <p className=" text-vividPink font-anton text-5xl">
+        <h1 className=" text-vividPink font-anton text-5xl">
           Hi, we’re Silk Route.
-        </p>
+        </h1>
         <div className=" font-ptSansNarrow text-white text-xl text-center mx-auto pt-8 max-w-3xl leading-9">
           <p>
             {" "}
@@ -146,7 +145,6 @@ const About = () => {
           </div>
         </div>
       </section>
-      <Footer />
     </div>
   );
 };
