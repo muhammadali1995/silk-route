@@ -3,7 +3,7 @@ import { data } from "../constants/FaqData";
 
 const Faq = () => {
   return (
-    <div className="bg-vividPink font-ptSansNarrow  py-[42px] pr-10 ">
+    <div className="bg-vividPink font-ptSansNarrow  pt-[42px] pb-20 pr-10 ">
       <div className="pt-20">
         {data[0].map((item, index) => {
           return (
