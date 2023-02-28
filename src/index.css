@@ -8,13 +8,13 @@ body {
 }
 
 .aboutTitle {
-    @apply lg:text-5xl text-3xl 
+    @apply lg:text-5xl text-[40px] lg:px-0 md:px-[27px] px-[10px]
 }
 .aboutSubTitle {
-    @apply md:text-title28 text-2xl lg:px-0 px-4
+    @apply md:text-title28 text-[26px] lg:px-0 md:px-[27px] px-[10px] leading-10
 }
 .aboutText {
-    @apply lg:text-xl  lg:px-0 px-4
+    @apply lg:text-xl  lg:px-0 md:px-[27px] px-[10px]
 }
 
 @layer components {
