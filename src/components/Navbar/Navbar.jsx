@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../../assets/imgs/Logo_Footer.svg";
+import logo from "../../assets/imgs/LOGO.svg";
 import NavRoutes from "../../constants/nav-links";
 import Container from "../Container";
 import closeMenu from './../../assets/imgs/closeMenu.png';
