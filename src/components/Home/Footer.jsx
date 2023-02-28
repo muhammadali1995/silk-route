@@ -7,7 +7,7 @@ export default function Footer() {
         <footer className="bg-black pt-2">
             <div className="flex justify-between md:items-center  sm:flex-row flex-row-reverse px-[10px] sm:px-8  max-w-extraLg mx-auto 2xl:px-52 xl:px-40 lg:px-28 md:px-12 pt-4 text-[16px] font-ptSansNarrow">
                 <div>
-                    <img  className='md:w-[141px] w-[122px]' src={logo} alt="silk route logo" />
+                    <img className='md:w-[141px] w-[122px]' src={logo} alt="silk route logo" />
                 </div>
                 <ul className="lg:flex lg:gap-9 gap-4 grid sm:grid-cols-4 grid-cols-1 list-none text-left text-white text-navbar md:pt-2 xl:mr-32 lg:mr-12">
                     <li className=" hover:text-delayedYellow">
