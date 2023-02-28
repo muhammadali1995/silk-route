@@ -4,12 +4,12 @@ import arrowLeftUp from "./../../assets/imgs/arrowLeftUp.png";
 
 export default function Main() {
   return (
-    <div className="lg:py-24 py-16 md:px-7 px-2 lg:px-0 bg-vividPink">
+    <div className="lg:py-24 py-16 md:px-7 px-[10px] lg:px-0 bg-vividPink">
       <div className="max-w-md mx-auto">
         <h1 className="lg:text-title60 text-[40px] text-delayedYellow font-anton lg:text-center lg:mt-7 sm:mt-4">
           Thinking of starting anew in the EU?
         </h1>
-        <div className="flex items-center justify-between lg:mt-10 md:mt-7 mt-5 lg:pr-14">
+        <div className="flex items-center justify-between text-justify lg:mt-10 md:mt-7 mt-5 lg:pr-14">
           <h3 className="lg:mr-20 text-xl font-ptSansNarrow leading-8 lg:mt-6 sm:mt-2.5 text-white">
             <span className="text-delayedYellow">
               Silk Route is here to help.
@@ -36,7 +36,7 @@ export default function Main() {
             alt="arrowRightDown"
             className="hidden lg:block"
           />
-          <h3 className="text-xl font-ptSansNarrow leading-8 text-white lg:ml-8">
+          <h3 className="text-xl font-ptSansNarrow leading-8 text-justify text-white lg:ml-8 lg:pb-0 md:pb-10 pb-5">
             Our team of experts know the immigration process inside and out.
             Their objective is to take the fear out of the unknown because let’s
             be honest; uprooting your life to start over in a new country is
@@ -45,7 +45,7 @@ export default function Main() {
             left for you to think about is the excitement of new beginnings.
           </h3>
         </div>
-        <h4 className="text-delayedYellow lg:mb-10 mb-5 lg:text-3xl text-[26px] -mt-4 font-anton lg:text-center sm:mt-10 lg:-mt-4">
+        <h4 className="text-delayedYellow lg:mb-10 mb-5 lg:text-3xl text-[26px] md:-mt-4 mt-5 font-anton lg:text-center  lg:-mt-4">
           Are you ready to unlock the possibilities of a new life in the EU?
         </h4>
         <a
