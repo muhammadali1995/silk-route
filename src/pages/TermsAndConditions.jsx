@@ -171,13 +171,13 @@ const TermsAndConditions = () => {
           </p>
         </article>
         <article>
-          <h2 className="termsSubTitle !mt-5 !text-3xl">2. USER ACCOUNT, LOG IN, AND PASSWORD</h2>
+          <h2 className="termsTitle">2. USER ACCOUNT, LOG IN, AND PASSWORD</h2>
           <p className="termsText mt-2.5">
             After the account registration, it will be the responsibility of the user to keep your login information confidential. The user alone will be responsible for any activity that happens under his/her account whether or not they have authorized it. If any user or account holder of our website has a reason to believe that their account and/or login information has been compromised, they are requested to contact us immediately.
           </p>
         </article>
         <article>
-          <h2 className="termsSubTitle !mt-5 !text-3xl">3. INTELLECTUAL PROPERTY AND AVAILABILITY OF SERVICES</h2>
+          <h2 className="termsTitle">3. INTELLECTUAL PROPERTY AND AVAILABILITY OF SERVICES</h2>
           <p className="termsText mt-2.5">
             The source code, logos, audio, videos, compositions, words, design, videos, samples, layout, graphics, photos, images, information, materials, documents, data, databases, and all other information and intellectual property accessible on or through our website is the property of Silk Route and is protected by intellectual property laws. If you have used a service or subscription or otherwise entered into a separate agreement with us you will also be subject to the terms of that agreement or those terms of service, which shall prevail in the event of a conflict.
           </p>
@@ -189,7 +189,7 @@ const TermsAndConditions = () => {
           </p>
         </article>
         <article>
-          <h2 className="termsSubTitle !mt-5 !text-3xl">4. TERMINATION OF SERVICE</h2>
+          <h2 className="termsTitle">4. TERMINATION OF SERVICE</h2>
           <p className="termsText mt-2.5">
             The following conditions are not exclusive and there may be other conditions under which we have the right to terminate the services with clients without any kind of refund or reimbursement to the client.
             <div className="mt-2 ml-2">
@@ -221,7 +221,7 @@ const TermsAndConditions = () => {
           </p>
         </article>
         <article>
-          <h2 className="termsSubTitle !mt-5 !text-3xl">5. UNFORESEEN EVENTS AND FORCE MAJEURE</h2>
+          <h2 className="termsTitle">5. UNFORESEEN EVENTS AND FORCE MAJEURE</h2>
           <p className="termsText mt-3">
             Any act or situation which is beyond our control is known as a “Force Majeure Event”. In such a circumstance, we are not liable for any failure to perform or delay in the performance of our obligations or shipping under our general terms. In any such event, the order or project can be canceled and any amount retained will be refunded. Any act, event, non-happening, omission, or accident beyond our control includes (but is not limited to):
             <div className="mt-2 ml-2">
@@ -258,35 +258,35 @@ const TermsAndConditions = () => {
           </p>
         </article>
         <article>
-          <h2 className="termsSubTitle !mt-5 !text-3xl">6. DISCLAIMER</h2>
+          <h2 className="termsTitle">6. DISCLAIMER</h2>
           <p className="termsText mt-2">The contents, materials, and information on this website are based solely on research conducted by the Silk Route and are only available for general information purposes and must not be taken as professional legal or law-related advice. The information on our website is presented for you and is not intended as an offer to buy or sell, or amount to a solicitation or incitement of offer to buy or sell, any products, packages, or subscriptions of any kind, in any way. Unless the client/user has signed a specific document, nothing on our website constitutes an attorney-client relationship between us and you.</p>
         </article>
         <article>
-          <h2 className="termsSubTitle !mt-5 !text-3xl">7. RESPONSIBILITY DISCLAIMER</h2>
+          <h2 className="termsTitle">7. RESPONSIBILITY DISCLAIMER</h2>
           <p className="termsText mt-2">You agree that you are using your own judgment in using the information provided on and through our website, its content, the articles, the suggestions and services at your own risk. It shall be your own personal responsibility to discern the risks of using our website’s articles, suggestions, suggestions, content, links, and services. We shall not be held accountable for the personal actions or choices that you make before or during, or after any of the activities related to our services. The mentioning of any suggestion, advice, or recommendation should be taken at the personal risk of the user or client of our website without any liability on our part. You accept full liability and consequences for your use, or non-use, of any suggestion, recommendation, or reliance on information provided through our website or by us through any means whatsoever. Your reliance and acceptance of any information will be upon you and you hereby absolve us of any damage or liability that may have been incurred due to your use or non-use of the information provided through our website.</p>
         </article>
         <article>
-          <h2 className="termsSubTitle !mt-5 !text-3xl">8. WEBSITE INACCURACIES AND MISTAKES DISCLAIMER</h2>
+          <h2 className="termsTitle">8. WEBSITE INACCURACIES AND MISTAKES DISCLAIMER</h2>
           <p className="termsText mt-2">The information on our website and content therein, e-mails, programs, services, and documents have been made available and published after thorough research, however, this information may inadvertently contain inaccuracies or typographical errors. We are not responsible for the views, opinions, or accuracy of facts referenced in our website, blog, written articles, e-mails, programs, and services. Make sure to contact us at <span className="text-vividPink">hello@silkroute.lv</span> to verify before acting on any information given on our website.</p>
         </article>
         <article>
-          <h2 className="termsSubTitle !mt-5 !text-3xl">9. WAIVER OF LIABILITY</h2>
+          <h2 className="termsTitle">9. WAIVER OF LIABILITY</h2>
           <p className="termsText mt-2">The users, clients and visitors of our website hereby waive, release, and forever discharge any and all claims for direct, indirect, consequential, incidental, contractual, compensatory, tort-based, punitive, or any other damages or any sort arising from any cause or basis whatsoever including but not limited to personal injury, death, or property damage which the buyer or buyer’s heirs, next of kin, executors, assigns, parents, personal representatives, or estate may have or which may hereafter accrue as a result of participation in any activity related to our website.</p>
         </article>
         <article>
-          <h2 className="termsSubTitle !mt-5 !text-3xl">10. RELEASE OF CLAIMS</h2>
+          <h2 className="termsTitle">10. RELEASE OF CLAIMS</h2>
           <p className="termsText mt-2">The buyer to the fullest extent permitted by law, shall indemnify, defend, hold harmless, protect and defend the owner, manufacturer, seller, distributor, affiliate, or anyone associated with Silk Route from and against any and all liabilities, claims, damages, losses, demands, lawsuits, costs, and expenses, including attorney fees, arising out of or resulting from any cause of action for any reason whatsoever including but not limited to the negligence or misconduct in connection with participation in any activity related to installation, removal or usage of our website. If any such legal claim, demand, or lawsuit arises or be asserted in any way whatsoever related thereto, whether arising under the laws of the United States, any other country, or under any theory of law or equity, the buyer will indemnify, hold harmless and defend the owner, manufacturer, seller, distributor, affiliate or anyone associated with our website from all costs, expenses, or liability including but not limited to the cost of any settlement or judgment made or rendered against the owner, manufacturer, seller, distributor, affiliate or anyone associated with our website.</p>
         </article>
         <article>
-          <h2 className="termsSubTitle !mt-5 !text-3xl">11. DATA PROTECTION</h2>
+          <h2 className="termsTitle">11. DATA PROTECTION</h2>
           <p className="termsText mt-2">We agree that we shall only process your personal data (as defined in the General Data Protection Regulation “GDPR”), and all regulations, codes of practice and guidance notes made thereunder and all subsequent amending or secondary legislation or orders) for the purposes of performing our obligations under the Contract and we will at all times process your personal data by the GDPR and will take all reasonable security measures as required to ensure our compliance with the GDPR. Please make sure to read our Privacy Policy to know more.</p>
         </article>
         <article>
-          <h2 className="termsSubTitle !mt-5 !text-3xl">12. LAW AND JURISDICTION</h2>
+          <h2 className="termsTitle">12. LAW AND JURISDICTION</h2>
           <p className="termsText mt-2">The Conditions will be governed by and construed in accordance with Latvian law, and any disputes relating to the Conditions will be subject to the jurisdiction of the courts of Riga-Latvia.</p>
         </article>
         <article>
-          <h2 className="termsSubTitle !mt-5 !text-3xl">13. BREACHES OF THE TERMS</h2>
+          <h2 className="termsTitle">13. BREACHES OF THE TERMS</h2>
           <p className="termsText mt-2">Without prejudice to our other rights under these Terms and Conditions, if you breach the Terms in any way, we may take such action as we deem appropriate to deal with the breach, including suspending your access to the website, prohibiting you from accessing the website, blocking computers using your IP address from accessing the website, contacting your internet service provider to request that they block your access to the website and/or bringing court proceedings against you.</p>
         </article>
         <article className="mb-14">
