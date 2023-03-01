@@ -5,7 +5,7 @@ const TermsAndConditions = () => {
   return (
     <div>
       <div className='bg-black w-full h-24'></div>
-      <h1 className="capitalize text-[34px] mt-14 font-anton text-center">
+      <h1 className="capitalize text-[34px] lg:mt-14 sm:mt-16 mt-14 font-anton text-center">
         Terms and Conditions
       </h1>
       <Container variant="secondary" className="sm:px-7 px-4 lg:px-0">
@@ -14,7 +14,7 @@ const TermsAndConditions = () => {
           <ul className="termsText pl-8">
             <li>
               Whereas,{" "}
-              <span className="text-vividPink ">https://www.silkroute.lv </span>{" "}
+              <a href="https://www.silkroute.lv" className="text-vividPink break-all">https://www.silkroute.lv </a>{" "}
               is a website owned and governed by Silk Route; and
             </li>
             <li>
@@ -71,7 +71,7 @@ const TermsAndConditions = () => {
           </p>
         </article>
         <article>
-          <h2 className="termsSubTitle">1.2. Acknowledgement</h2>
+          <h2 className="termsSubTitle 2xl:mt-2.5">1.2. Acknowledgement</h2>
           <p className="termsText">
             By accessing this website using any of our services, you confirm that:
             <div className="mt-2 ml-2">
@@ -95,7 +95,7 @@ const TermsAndConditions = () => {
           </p>
         </article>
         <article>
-          <h2 className="termsSubTitle">1.3. Requirements</h2>
+          <h2 className="termsSubTitle mt-5 2xl:mt-2.5">1.3. Requirements</h2>
           <p className="termsText">
             <div className="mt-0.5 ml-2">
               <p>
@@ -124,7 +124,7 @@ const TermsAndConditions = () => {
               </p>
               <p className="flex">
                 <span className="text-xl font-bold font-ptSansNarrow mr-1.5">g.</span>
-                <span>You need to send the following documents in PDF format scanned in a professional scanner to hello@silkroute.lv</span>
+                <span>You need to send the following documents in PDF format scanned in a professional scanner to <a href="hello@silkroute.lv" className="text-vividPink break-all">hello@silkroute.lv</a></span>
               </p>
             </div>
             <p className="ml-12">
@@ -172,7 +172,7 @@ const TermsAndConditions = () => {
           </p>
         </article>
         <article>
-          <h2 className="termsTitle">2. USER ACCOUNT, LOG IN, AND PASSWORD</h2>
+          <h2 className="termsTitle lg:mt-2.5">2. USER ACCOUNT, LOG IN, AND PASSWORD</h2>
           <p className="termsText mt-2.5">
             After the account registration, it will be the responsibility of the user to keep your login information confidential. The user alone will be responsible for any activity that happens under his/her account whether or not they have authorized it. If any user or account holder of our website has a reason to believe that their account and/or login information has been compromised, they are requested to contact us immediately.
           </p>
@@ -268,7 +268,7 @@ const TermsAndConditions = () => {
         </article>
         <article>
           <h2 className="termsTitle">8. WEBSITE INACCURACIES AND MISTAKES DISCLAIMER</h2>
-          <p className="termsText mt-2">The information on our website and content therein, e-mails, programs, services, and documents have been made available and published after thorough research, however, this information may inadvertently contain inaccuracies or typographical errors. We are not responsible for the views, opinions, or accuracy of facts referenced in our website, blog, written articles, e-mails, programs, and services. Make sure to contact us at <span className="text-vividPink">hello@silkroute.lv</span> to verify before acting on any information given on our website.</p>
+          <p className="termsText mt-2">The information on our website and content therein, e-mails, programs, services, and documents have been made available and published after thorough research, however, this information may inadvertently contain inaccuracies or typographical errors. We are not responsible for the views, opinions, or accuracy of facts referenced in our website, blog, written articles, e-mails, programs, and services. Make sure to contact us at <a href="hello@silkroute.lv" className="text-vividPink break-all">hello@silkroute.lv</a> to verify before acting on any information given on our website.</p>
         </article>
         <article>
           <h2 className="termsTitle">9. WAIVER OF LIABILITY</h2>
@@ -292,7 +292,7 @@ const TermsAndConditions = () => {
         </article>
         <article className="mb-14">
           <h2 className="termsSubTitle !mt-8 !text-3xl">14. CONTACT</h2>
-          <p className="termsText mt-2">You can contact us at <span className="text-vividPink">hello@silkroute.lv</span> in order to know more about our services.</p>
+          <p className="termsText mt-2">You can contact us at <a href="hello@silkroute.lv" className="text-vividPink break-all">hello@silkroute.lv</a> in order to know more about our services.</p>
         </article>
       </Container>
     </div>
