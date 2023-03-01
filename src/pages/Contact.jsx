@@ -34,35 +34,39 @@ export default function Contact() {
                 </div>
                 <Formik initialValues={initialValues} onSubmit={onSubmit}>
                     <Form>
-                        <div className={'bg-vividPink lg:p-10 p-4 max-w-form mx-auto mt-10 ' + (formIsOpen ? 'block' : 'hidden')}>
-                            <Field name="name" type="text" className='customInput' placeholder='Full Name' />
-                            <Field name='phone' type="text" className='customInput' placeholder='Phone' />
-                            <Field name='email' type="text" className='customInput' placeholder='Email ' />
-                            <Field name='country' type="text" className='customInput' placeholder='Country' />
-                            <Field as='textarea' name='comment' className='customInput h-40' placeholder='How can we help?' />
-                            <div className='flex justify-end'>
-                                <button type='submit' className='mt-10 bg-springGreen py-3 px-20 font-anton text-2xl'>Submit</button>
+                        <div className='p-2'>
+                            <div className={'bg-vividPink lg:p-10 p-4 max-w-form mx-auto mt-10 ' + (formIsOpen ? 'block' : 'hidden')}>
+                                <Field name="name" type="text" className='customInput' placeholder='Full Name' />
+                                <Field name='phone' type="text" className='customInput' placeholder='Phone' />
+                                <Field name='email' type="text" className='customInput' placeholder='Email ' />
+                                <Field name='country' type="text" className='customInput' placeholder='Country' />
+                                <Field as='textarea' name='comment' className='customInput h-40' placeholder='How can we help?' />
+                                <div className='flex justify-end'>
+                                    <button type='submit' className='mt-10 bg-springGreen py-3 px-20 font-anton text-2xl'>Submit</button>
+                                </div>
                             </div>
                         </div>
                     </Form>
                 </Formik>
                 <div className='grid lg:grid-cols-3 sm:grid-cols-2 mt-20'>
                     <div className='bg-springGreen sm:p-24 py-10 sm:py-24 flex items-center justify-start flex-col'>
-                        <h3 className='text-vividPink text-3xl font-anton'>Head Office</h3>
-                        <p className='mt-2 font-anton text-xl'>Garve 23 <br />
-                            Someren 5712KD <br />
-                            Netherlands</p>
+                        <div className='w-40'>
+                            <h3 className='text-vividPink text-3xl font-anton'>Head Office</h3>
+                            <p className='mt-2 font-anton text-xl'>Garve 23 <br />
+                                Someren 5712KD <br />
+                                Netherlands</p>
+                        </div>
                     </div>
                     <div className='bg-delayedYellow sm:p-24 py-10 sm:py-24 flex items-center flex-col'>
-                        <div>
+                        <div className='w-40'>
                             <h3 className='text-electricPurple text-3xl font-anton'>Branch Office</h3>
                             <p className='mt-2 font-anton text-xl'>Avotu iela 6B - 31 <br />
                                 Riga, LV - 1011 <br />
                                 Latvia</p>
                         </div>
                     </div>
-                    <div className='bg-vividPink sm:p-24  py-10 sm:py-24 flex items-center flex-col'>
-                        <div>
+                    <div className='bg-vividPink sm:p-24 w-screen lg:w-auto py-10 sm:py-24 flex items-center flex-col'>
+                        <div className='w-40'>
                             <h3 className='text-delayedYellow text-3xl font-anton'>Contacts</h3>
                             <div className='mt-2 font-anton text-xl'>
                                 <div className='flex'>
