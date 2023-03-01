@@ -1,4 +1,5 @@
 import React from "react";
+import Container from "./../components/Container";
 
 const TermsAndConditions = () => {
   return (
@@ -7,7 +8,7 @@ const TermsAndConditions = () => {
       <h1 className="capitalize text-[34px] mt-14 font-anton text-center">
         Terms and Conditions
       </h1>
-      <div className="max-w-md mx-auto sm:px-7 px-4 lg:px-0 ">
+      <Container variant="secondary" className="sm:px-7 px-4 lg:px-0">
         <article>
           <h2 className="termsTitle">PREAMBLE</h2>
           <ul className="termsText pl-8">
@@ -293,7 +294,7 @@ const TermsAndConditions = () => {
           <h2 className="termsSubTitle !mt-8 !text-3xl">14. CONTACT</h2>
           <p className="termsText mt-2">You can contact us at <span className="text-vividPink">hello@silkroute.lv</span> in order to know more about our services.</p>
         </article>
-      </div>
+      </Container>
     </div>
   );
 };
