@@ -13,10 +13,10 @@ export default function Footer() {
                 </div>
                 <ul className="lg:flex lg:gap-9 gap-4 grid sm:grid-cols-4 grid-cols-1 list-none text-left text-white text-navbar md:pt-2 xl:mr-32 lg:mr-12">
                     <li className=" hover:text-delayedYellow">
-                        <NavLink>Home</NavLink>
+                        <NavLink to='/'>Home</NavLink>
                     </li>
                     <li className=" hover:text-delayedYellow">
-                        <NavLink>About Us</NavLink>
+                        <NavLink to='/about'>About Us</NavLink>
                     </li>
                     <li className=" hover:text-delayedYellow">
                         <NavLink>Services</NavLink>
@@ -25,16 +25,16 @@ export default function Footer() {
                         <NavLink>Blogs</NavLink>
                     </li>
                     <li className=" hover:text-delayedYellow">
-                        <NavLink>FAQ</NavLink>
+                        <NavLink to='/faq'>FAQ</NavLink>
                     </li>
                     <li className=" hover:text-delayedYellow">
-                        <NavLink>Contact </NavLink>
+                        <NavLink to='/contact'>Contact </NavLink>
                     </li>
                     <li className=" hover:text-delayedYellow">
-                        <NavLink>Terms and Conditions</NavLink>
+                        <NavLink to='/terms-conditions'>Terms and Conditions</NavLink>
                     </li>
                     <li className=" hover:text-delayedYellow">
-                        <NavLink>Privacy Policy</NavLink>
+                        <NavLink to='/privacy-policy'>Privacy Policy</NavLink>
                     </li>
                 </ul>
             </div>
