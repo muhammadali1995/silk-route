@@ -1,58 +1,43 @@
-export const data = [
+export const blogsData = [
   {
     title: "Midsummer Celebrations",
-    text:
-      "",
+    text: "Latvians certainly know how to have a good time. Nothing proves this better than the annual festivities that take place during Midsummer. On the shortest night of the year, when the sun stays risen for 18 hours, many Latvians gather at the beach for a night of singing and dancing around bonfires, eating a variety of delectable foods, and most importantly, staying awake all night. Many also participate in the charming tradition of weaving floral crowns using local wildflowers and botanicals. Both men and women alike adorn themselves with colorful florals gathered from the surrounding forests. Some choose to venture deep into the woods in search of the fabled fern blossom, a mythical plant rumored to bloom only once a year. Other traditions include bathing in the morning dew and harvesting herbs with special powers. With so many unique ways to celebrate life and love, Midsummer in Latvia is an event you don’t want to miss!",
   },
   {
-    title: "What about my family? Where do they fit into this process?",
-    text:
-      "Not to worry. We’ve got your spouse and kids covered too. According to Latvia’s immigration policies, the spouse of a new resident automatically qualifies for residency as a dependent and is free to work without restrictions in Latvia. Children under the age of 18 qualify for residency as well. The whole family is welcome!",
+    title: "Pristine Beaches",
+    text: "One of many things that makes Latvia special is its stretches of stunning beaches. The country has made a point to protect its coastline by keeping all construction within the confines of cities, towns, and villages, meaning that the beaches are free of pollution, uncrowded, and perfectly tranquil. In fact, a trip to the beach in Latvia often involves crossing through an expanse of towering pine trees before emerging to stunning views of the wild Baltic Sea. While some shores, especially ones near the capital of Riga, can get busy during summer months, most of the beaches in Latvia are remote and offer the perfect opportunity to connect with nature.",
   },
   {
-    title: "I have titles. Who can I contact?",
-    text:
-      "Silk Route offers free immigration consultations for Europe bound applicants. Bring all your titles! We have answers ready. See our contact page for details.",
+    title: "Green Country",
+    text: "Topping the list of reasons why Latvia is a special place is the fact that 45% of the tiny country is covered in untainted wilderness. This number is expected to increase substantially, too, as Latvia takes an active role in afforestation–the planting of trees to create forests in areas not previously forested. The Latvian people are deeply connected to the forest ecosystem. In fact, forest foraging is a common activity in Latvia. Many venture into the woods to harvest mushrooms, birch sap juice, wild berries, herbs, and tea leaves. Granted a large portion of the forests are free to the public, it’s completely legal to come and fill your basket. Latvia is truly a nature-lover’s paradise!",
   },
   {
-    title: "Can I obtain dual citizenship in Latvia?",
-    text:
-      "Dual citizenship may be granted if you have already obtained citizenship in a member state of the EU, a member state of EFTA, a member state of NATO, or in the countries of Australia, Brazil, or New Zealand.",
+    title: "The Venta Waterfall",
+    text: "Few know that Latvia is home to the widest waterfall in all of Europe. During Spring and Autumn, viewers gather on all sides of the Ventas Rumba to witness the flying fish that attempt to leap over the 6 feet tall rapid. Visitors can enjoy walking along the width of the falls and even bathing in the cool waters. A brick bridge built in 1874 runs parallel to the waterfall and offers the perfect spot for viewers to observe this natural wonder.",
   },
   {
-    title: "Does my business have to be located in Riga?",
-    text:
-      "Although your company will be registered in Riga, you are free tooperate your business in any part of Latvia. You are also free to conduct business with any country in the EU.",
+    title: "The Blood of Heroes",
+    text: "Latvia has one of the oldest flags in history, which may surprise some considering Latvia didn’t officially become a state until 1918. However, its flag dates back to 1279! According to legend, a leader of a Latvian tribe was tragically killed in battle. Fellow tribe members wrapped him in a white cloth that became stained with his blood. The following day, the tribe won the battle while flying the bloodstained sheet as a flag. This cloth became iconic and was used as inspiration for Latvia’s flag, or so the legend goes. Whether the tale is true or not, one thing is certain–Latvians see the red stripes on their flag as symbolic of the blood their people are willing to shed for freedom and sovereignty.",
   },
   {
-    title: "Am I permitted to travel outside of Latvia?",
-    text:
-      "Once your ID is obtained, you are free to travel to other European countries for up to 90 day periods. Hello, vacation!",
+    title: "A Nation of Singers and Dancers",
+    text: "Latvians are well known for their love of song and dance. Hundreds of thousands of people belong to choirs, theater groups, folk dance groups, and orchestras, making the country an emblem of celebration. Every five years, the highly anticipated Latvian Song and Dance Festival takes place, drawing thousands from around the country and even bringing home many Latvians living abroad. Festivities run from morning to midnight for an entire week! The festival is the ultimate celebration of Latvian culture and tradition expressed through song and dance, which is why it is included in the UNESCO List of Masterpieces of the Oral and Intangible Heritage of Humanity.",
   },
 
   {
-    title: "How do I obtain permanent residency in Latvia?",
-    text:
-      "After 5 years of temporary residency, you are eligible to apply for Latvian Permanent Residence. At this time, you will need to successfully pass the basic Latvian language test, which also includes titles about the country’s general history as well as their national anthem. Don’t let this test intimidate you though! Even after five years, we’ve still got your back. Silk Route clients receive discounted rates at local Latvian language schools that offer both in-person and online classes. There are also a number of free language courses available in Latvia. Our team will make sure you feel comfortable and prepared when the time comes for you to take your test.",
+    title: "Wifi Paradise",
+    text: "Technology junkies will love the capital city of Riga! With over 800 free wifi connection points, citizens and visitors never have to go a moment without internet access. Nearly all hotels and restaurants have wifi, and even some of the parks. What’s more is that the internet is extremely fast–one of the fastest in the world as a matter of fact!",
   },
   {
-    title: "What if I want to move to another country in the EU?",
-    text:
-      "You must be a permanent resident of Latvia for 5 years in order to apply for an EU passport. Once you’ve obtained your EU passport, you are free to live without restrictions in any country in the EU.",
+    title: "A Land of Castles",
+    text: "There are roughly 140 castles and palaces in Latvia, most of which are scattered throughout the countryside. Some have been beautifully preserved over the years, while others have been reduced to ruins. These grand structures speak of Latvia’s rich history. From the Baltic Crusades to the invasion of the Russian Empire, Latvia has been quite the fortified country over the years, and the castles left behind tell stories of German knights and Russian czars. The Rundale Palace, the Medieval castles of Sigulda, the ever-famous castle of Cēsis, and the grandiose Cesvaine Palace are among the most well known and frequently visited.",
   },
   {
-    title: "Is it worth getting an EU passport?",
-    text:
-      "There are a host of benefits to obtaining your EU passport! Not only can you live and work within the EU without restrictions, but you also can access healthcare anywhere in the EU, provided you meet certain requirements. With an EU passport, you are free to travel throughout all 28 EU countries, including the Schengen states, as well as 61 non-EU countries with whom Europe has a visa-free agreement. Further, an EU passport grants you access to many of Europe’s top universities, some of which offer free or reduced tuition. All around, an EU passport opens a world of opportunities.",
+    title: "Winter Wonderland",
+    text: "There’s no better place to enjoy cold weather activities than in Latvia. In the Winter months, glittering snow blankets the ground, and icicles hang from buildings and trees. Despite the frigid temperatures, exciting activities abound! Dog sledding, ice go-karting, snowmobiling, and skiing are some of the top choices for winter entertainment in Latvia. Fun fact: to stay warm in the harsh climate, grab yourself a pair of traditional Latvian mittens. For centuries, grandmothers in the countryside have been knitting wool mittens in beautiful patterns and vivid colors, and this tradition continues today. There’s nothing better to keep you warm! However, if the temperatures drop too low, as they sometimes do in the coldest months of January and February, join the hundreds who gather at the saunas to escape the blustery weather.",
   },
   {
-    title: "What are the benefits of a Latvian Passport?",
-    text:
-      "According to the most recent international rankings, a Latvian passport ranks 12th in regard to the degree of global entry it allows passport holders. Passport holders are free to travel visa-free to 182 countries.",
-  },
-  {
-    title: "What is Latvia like?",
-    text:
-      "We’re so glad you asked! Latvia is a beautiful country boasting pristine, white sand beaches, vast expanses of untouched wilderness, and charming cities with superior public transportation. The food is superb and the people hospitable–we can’t say enough about this Baltic gem of a country! Learn more about Latvia here.",
+    title: "Art Nouveau",
+    text: "Like most cities, Riga has its fair share of skyscrapers and fancy modern buildings; however, the capital’s enormous collection of Art Nouveau architecture makes it unique from other cities. Characterized by vivid colors, organic lines, ornate detailing, and diverse use of materials, Art Nouveau swept through Europe in the early 19th century, but it didn’t arrive in Latvia until the early 1900s. Despite its popularity across Europe and the United States, nowhere was it more adored than Riga. With over 800 Art Nouveau buildings in the city, Riga is home to the largest collection of Art Nouveau architecture in the world.",
   },
 ];

@@ -77,14 +77,14 @@ export default function Slider() {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <picture className="mx-auto w-full top-0 -z-10">
+        <picture className="mx-auto top-0 -z-10">
           <source media="(max-width: 360px)" srcset={slider2Mobile} />
           <source media="(max-width: 768px)" srcset={slider2Tablet} />
           <source media="(max-width: 1440px)" srcset={slider2} />
           <img
             src={slider2Laptop}
             alt="slider2"
-            className="min-h-[800px] sm:min-h-[1024px] md:min-h-[790px] 2xl:min-h-[990px]"
+            className="min-h-[800px] w-full sm:min-h-[1024px] md:min-h-[790px] 2xl:min-h-[990px]"
           />
         </picture>
         <div className="absolute top-0 h-full w-full">
@@ -104,14 +104,14 @@ export default function Slider() {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <picture className="mx-auto w-full top-0 -z-10">
+        <picture className="mx-auto top-0 -z-10">
           <source media="(max-width: 360px)" srcset={slider3Mobile} />
           <source media="(max-width: 768px)" srcset={slider3Tablet} />
           <source media="(max-width: 1440px)" srcset={slider3} />
           <img
             src={slider3Laptop}
             alt="slider3"
-            className="min-h-[800px] sm:min-h-[1024px] md:min-h-[790px] 2xl:min-h-[990px]"
+            className="min-h-[800px] w-full sm:min-h-[1024px] md:min-h-[790px] 2xl:min-h-[990px]"
           />
         </picture>
         <div className="absolute top-0 h-full w-full">
@@ -125,21 +125,21 @@ export default function Slider() {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <picture className="mx-auto w-full top-0 -z-10">
+        <picture className="mx-auto top-0 -z-10">
           <source media="(max-width: 360px)" srcset={slider4Mobile} />
           <source media="(max-width: 768px)" srcset={slider4Tablet} />
           <source media="(max-width: 1440px)" srcset={slider4} />
           <img
             src={slider4Laptop}
             alt="slider4"
-            className="min-h-[800px] sm:min-h-[1024px] md:min-h-[790px] 2xl:min-h-[990px]"
+            className="min-h-[800px] w-full sm:min-h-[1024px] md:min-h-[790px] 2xl:min-h-[990px]"
           />
         </picture>
         <div className="absolute top-0 w-full h-full">
           <Container className={"w-full h-full"}>
             <div className="max-w-extraLg mx-auto flex h-full items-center">
               <h1 className="slider-title lg:ml-24 ml-7">
-                A Red Carpet Experience for <br className="hidden lg:block" />{" "}
+                A Red Carpet Experience for <br className="hidden lg:block" />
                 Anyone Seeking <br className="hidden lg:block" />
                 Residence in Europe
               </h1>
