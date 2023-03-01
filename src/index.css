@@ -32,7 +32,7 @@ body {
     @apply text-[26px] font-anton capitalize text-justify pt-[30px]
  }
  .termsText{
-    @apply text-xl font-ptSansNarrow decoration-black leading-8 pt-[30px] list-disc text-justify ;
+    @apply text-xl font-ptSansNarrow decoration-black leading-[30px] pt-[30px] list-disc text-justify ;
     
     
  }
