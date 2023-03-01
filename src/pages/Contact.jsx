@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Container from './../components/Container'
-import arrowDown from './../assets/icons/ArrowDown.png'
+import arrowDown from './../assets/icons/ArrowDown.svg'
 import { Formik, Form, Field } from 'formik'
 
 export default function Contact() {

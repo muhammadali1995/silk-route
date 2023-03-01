@@ -11,16 +11,14 @@ const Faq = () => {
               key={index}
               className="max-w-[947px] mx-auto w-full flex flex-col justify-center lg:px-0 px-2"
             >
-              <div className="flex gap-2  lg:text-center pt-10">
-                <div className="flex gap-1  ">
-                <span className="text-springGreen lg:text-4xl text-3xl ">&#10070;</span>
-                  <h3 className=" text-springGreen font-anton lg:text-3xl text-2xl  ">
-                    Question
-                  </h3>
-                  <span className="text-springGreen">&#10132;</span>
+              <div className="flex gap-2 text-springGreen font-anton lg:text-center pt-10">
+                <div className="flex gap-1 items-center ">
+                  <span className=" lg:text-4xl text-3xl font-anton -mt-0.5">
+                    &#10070;
+                  </span>
+                  <h3 className="lg:text-3xl text-2xl  ">Question &#10132;</h3>
                 </div>
-
-                <p className="text-springGreen font-ptSansNarrow lg:text-3xl text-2xl">
+                <p className="font-ptSansNarrow lg:text-3xl text-2xl">
                   {item.question}
                 </p>
               </div>
@@ -49,7 +47,9 @@ const Faq = () => {
             >
               <div className="flex lg:pl-[15px] gap-2 lg:text-center text-left  pt-10">
                 <div className="flex gap-1">
-                <span className="text-springGreen lg:text-4xl text-3xl ">&#10070;</span>
+                  <span className="text-springGreen lg:text-4xl text-3xl ">
+                    &#10070;
+                  </span>
                   <h3 className=" text-springGreen font-anton lg:text-3xl text-2xl ">
                     Question
                   </h3>
