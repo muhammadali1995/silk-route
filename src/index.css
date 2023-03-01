@@ -26,16 +26,17 @@ body {
     }
 }
  .termsTitle{
-    @apply text-3xl font-anton capitalize text-justify pt-[50px]
+    @apply lg:text-3xl font-anton capitalize sm:text-justify lg:pt-[50px] pt-[42px] sm:text-[28px] text-[26px]
  }
  .termsSubTitle{
-    @apply text-[26px] font-anton capitalize text-justify pt-[30px]
+    @apply text-[22px] sm:text-2xl lg:text-[26px] font-anton capitalize sm:text-justify pt-[30px]
  }
  .termsText{
-    @apply text-xl font-ptSansNarrow decoration-black leading-[30px] pt-[30px] list-disc text-justify ;
-    
+    @apply text-xl font-ptSansNarrow decoration-black leading-[30px] lg:pt-[30px] pt-5 list-disc sm:text-justify ;
+        
     
  }
+
  .lastParagraph:last-child{
     @apply pt-10
  }
