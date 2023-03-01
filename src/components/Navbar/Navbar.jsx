@@ -1,15 +1,16 @@
 import React, { useState } from "react";
-import logo from "../../assets/imgs/Logo_Footer.svg";
 import NavRoutes from "../../constants/nav-links";
 import Container from "../Container";
 import closeMenu from './../../assets/imgs/closeMenu.png';
 import menu from './../../assets/imgs/menu.png';
 import NavbarLink from "./NavBarLink";
+import { Logo, LogoMobile } from "../Icons";
+import useWindowSize from "../../constants/useWindowResize";
 
 const Navbar = () => {
 
-
   const [menuIsOpen, setMenuIsOpen] = useState(false)
+  const [width] = useWindowSize()
 
   const NavLinks = ({ className }) => {
     return <ul className={className}>
@@ -17,12 +18,13 @@ const Navbar = () => {
     </ul>
   }
 
+
   return (
     <div className="absolute w-full main top-0">
       <Container>
         <div className="w-full lg:my-4 flex justify-between items-center md:px-20   lg:py-2.5 py-5 px-2.5 lg:pt-0  font-ptSansNarrow">
-          <div className=" z-10 lg:mt-2 md:ml-0 ml-4">
-            <img className=" md:w-[141px] w-[122px]" src={logo} alt="silk route logo" />
+          <div className="z-10 lg:mt-2 md:ml-0 ml-4 flex">
+            {width > 786 ? <Logo /> : <LogoMobile />}
           </div>
           <NavLinks className={'lg:flex gap-14 list-none text-white text-nabar pr-12 -mt-3 hidden'} />
           <div className="lg:hidden md:w-12 w-7 mr-7 cursor-pointer z-10" onClick={() => setMenuIsOpen(!menuIsOpen)}>
