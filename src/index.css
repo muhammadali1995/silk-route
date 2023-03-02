@@ -3,27 +3,54 @@
 @tailwind utilities;
 
 body {
-    font-size: 20px;
-    font-family: 'Courier New', Courier, monospace, Anton;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace, Anton;
 }
 
 .aboutTitle {
-    @apply lg:text-5xl text-[40px] lg:px-0 md:px-[27px] px-[10px]
+  @apply lg:text-5xl text-[40px] lg:px-0 md:px-[27px] px-[10px];
 }
 .aboutSubTitle {
-    @apply md:text-title28 text-[26px] lg:px-0 md:px-[27px] px-[10px] leading-10
+  @apply md:text-title28 text-[26px] lg:px-0 md:px-[27px] px-[10px] leading-10;
 }
 .aboutText {
-    @apply lg:text-xl  lg:px-0 md:px-[27px] px-[10px]
+  @apply lg:text-xl  lg:px-0 md:px-[27px] px-[10px];
 }
 
 @layer components {
-    .slider-title {
-        @apply lg:text-title80 sm:text-[70px] text-[50px] font-anton text-white
-    }
-    .customInput {
-        @apply w-full bg-delayedYellow outline-none border-none mt-5 py-3 px-7 font-ptSansNarrow text-xl placeholder:text-black placeholder:font-ptSansNarrow
-    }
+  .slider-title {
+    @apply lg:text-title80 sm:text-[70px] text-[50px] font-anton text-white;
+  }
+  .customInput {
+    @apply w-full bg-delayedYellow outline-none border-none mt-5 py-3 px-7 font-ptSansNarrow text-xl placeholder:text-black placeholder:font-ptSansNarrow;
+  }
+}
+.termsTitle {
+  @apply text-3xl font-anton capitalize text-justify pt-[50px];
+}
+.termsSubTitle {
+  @apply text-[26px] font-anton capitalize text-justify pt-[30px];
+}
+.termsText {
+  @apply text-xl font-ptSansNarrow decoration-black leading-[30px] pt-[30px] list-disc text-justify;
+}
+.lastParagraph:last-child {
+  @apply pt-10;
+}
+.blogsText {
+  @apply md:text-xl text-title28 font-ptSansNarrow text-justify max-w-[970px] mx-auto lg:px-0 md:px-[27px] px-[14px] leading-[30px];
+}
+.servicesText {
+  @apply text-xl font-ptSansNarrow text-justify max-w-[970px] mx-auto lg:px-0 md:px-[27px] px-[14px] leading-[30px];
+}
+.servicesText li {
+  list-style-image: url("../src/assets/imgs/liArrowRight.png");
+}
+.fastTruckText {
+  @apply text-xl font-ptSansNarrow text-justify max-w-[970px] mx-auto lg:px-0 md:px-[27px] px-[14px] leading-[30px]  text-electricPurple flex-col gap-[30px] pt-5 pl-10 ;
+}
+.fastTruckText li {
+  list-style-image: url("../src/assets/icons/ArrowRightText.svg");
 }
  .termsTitle{
     @apply lg:text-3xl font-anton capitalize sm:text-justify lg:pt-[50px] pt-[42px] sm:text-[28px] text-[26px]

@@ -29,6 +29,9 @@ module.exports = {
         md: '968px',
         form:'770px'
       },
+      backgroundImage: {
+        aboutDesktop:"url('/src/assets/imgs/big_ben.png')",
+      }
     },
   },
   plugins: [],

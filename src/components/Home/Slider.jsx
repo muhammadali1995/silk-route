@@ -139,7 +139,7 @@ export default function Slider() {
           <Container className={"w-full h-full"}>
             <div className="max-w-extraLg mx-auto flex h-full items-center">
               <h1 className="slider-title lg:ml-24 ml-7">
-                A Red Carpet Experience for <br className="hidden lg:block" />{" "}
+                A Red Carpet Experience for <br className="hidden lg:block" />
                 Anyone Seeking <br className="hidden lg:block" />
                 Residence in Europe
               </h1>
