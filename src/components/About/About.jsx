@@ -2,18 +2,18 @@ import React, { useState } from "react";
 import arrowUp from "../../assets/icons/ArrowUp.svg";
 import gppGood from "../../assets/imgs/gpp-good.png";
 import goal from "../../assets/imgs/Icon_goal-24.png";
-import aboutMobile from "./../../assets/imgs/about1.png";
-import aboutTablet from "./../../assets/imgs/about2.png";
-import about from "./../../assets/imgs/about3.png";
-import aboutLaptop from "./../../assets/imgs/about4.png";
+// import aboutMobile from "./../../assets/imgs/about1.png";
+// import aboutTablet from "./../../assets/imgs/about2.png";
+// import about from "./../../assets/imgs/about3.png";
+// import aboutLaptop from "./../../assets/imgs/about4.png";
 import Container from "../Container";
 
 const About = () => {
   const [showInfo, setShowInfo] = useState(false);
   return (
     <div>
-      <header className=" relative  flex justify-between  ">
-        <picture className="mx-auto w-full top-0 -z-10">
+      <header className="flex  items-center justify-center bg-aboutDesktop h-[100vh] bg-cover bg-center ">
+        {/* <picture className="mx-auto w-full top-0 -z-10">
           <source media="(max-width: 360px)" srcset={aboutMobile} />
           <source media="(max-width: 768px)" srcset={aboutTablet} />
           <source media="(max-width: 1440px)" srcset={about} />
@@ -22,10 +22,10 @@ const About = () => {
             alt="about"
             className="min-h-[800px] w-full sm:min-h-[1024px] md:min-h-[790px] 2xl:min-h-[990px]"
           />
-        </picture>
-        <div className="absolute top-0 h-full w-full md:px-6 sm:px-8 px-2.5">
+        </picture> */}
+        <div className=" top-0 h-full w-full md:px-6 sm:px-8 px-2.5">
           <Container className={"h-full w-full"}>
-            <h1 className="flex flex-col items-center justify-center w-full h-full lg:mt-11 mt-6 lg:pr-0 md:pr-10 pr-16">
+            <h1 className="flex flex-col items-center font-anton justify-center w-full h-full lg:mt-11 mt-6 lg:pr-0 md:pr-10 pr-16">
               <span className="text-delayedYellow slider-title  ">
                 Thinking of immigrating to Europe
               </span>
