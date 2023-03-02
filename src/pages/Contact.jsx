@@ -25,7 +25,7 @@ export default function Contact() {
             <Container>
                 <h1 className='font-anton mx-2 lg:mt-28 mt-10 lg:text-4xl text-3xl text-electricPurple text-center'>Let’s explore how Silk Route can help you achieve your dreams of a new life!!!</h1>
                 <h1 className='mt-8 font-anton mx-2 lg:text-4xl text-3xl text-vividPink text-center'>Click here to contact a member of our team</h1>
-                <div className='flex flex-col lg:h-screen justify-between'>
+                <div className='flex flex-col lg:min-h-screen justify-between'>
                     <div>
                         <div className='w-full flex justify-center mt-7'>
                             <img
@@ -51,7 +51,7 @@ export default function Contact() {
                             </Form>
                         </Formik>
                     </div>
-                    <div className='grid lg:grid-cols-3 sm:grid-cols-2 mt-10'>
+                    <div className='grid lg:grid-cols-3 sm:grid-cols-2 mt-10 max-w-full overflow-hidden'>
                         <div className='bg-springGreen sm:p-24 py-10 sm:py-24 flex items-center justify-start flex-col'>
                             <div className='w-40'>
                                 <h3 className='text-vividPink text-3xl font-anton'>Head Office</h3>
