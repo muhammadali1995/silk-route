@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import NavRoutes from "../../constants/nav-links";
 import Container from "../Container";
 import closeMenu from "./../../assets/imgs/closeMenu.png";
@@ -6,22 +6,18 @@ import menu from "./../../assets/imgs/menu.png";
 import NavbarLink from "./NavBarLink";
 import { Logo, LogoMobile } from "../Icons";
 import useWindowSize from "../../constants/useWindowResize";
-import { useLocation } from "react-router-dom";
+import { useParams } from "react-router-dom";
 
 const Navbar = () => {
   const [menuIsOpen, setMenuIsOpen] = useState(false);
   const [width] = useWindowSize();
- const {pathname} = useLocation()
- console.log('params', pathname);
-  useEffect(()=>{
-    document.title=pathname
-  })
-  const NavLinks = ({ className }) => {
-    return (
-      <ul className={className}>
+
+ const NavLinks = ({ className }) => {
+   return (
+     <ul className={className}>
         {NavRoutes.map(({ name, link }) => (
           <NavbarLink key={link} link={link} name={name} />
-        ))}
+          ))}
       </ul>
     );
   };
@@ -46,8 +42,8 @@ const Navbar = () => {
           </div>
           <div
             className={
-              "absolute top-0 bg-vividPink p-7 sm:w-80 w-60 z-50  flex-col duration-500 ease transition-all " +
-              (width<1024 && menuIsOpen ? "right-0 " : " -right-96 opacity-0")
+              "absolute top-0 bg-vividPink p-7 sm:w-80 w-60 z-50  flex-col duration-900 ease transition-all " +
+              (width<1024 && menuIsOpen ? "right-0 " : " -right-96 hidden")
             }
           >
             <button onClick={() => setMenuIsOpen(false)}>
